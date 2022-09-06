@@ -1,11 +1,12 @@
 package oo.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
 	
 	private double peso;
 	private String nome;
 	
-	public Comida(double peso) {
+	public Comida(String nome, double peso) {
+		setNome(nome);
 		setPeso(peso);
 	}
 

@@ -5,9 +5,9 @@ public class Jantar {
 	public static void main(String[] args) {
 		 Pessoa pessoa = new Pessoa(70);
 		 
-		 Comida arroz = new Arroz(0.25);
-		 Comida feijao = new Feijao(0.18);
-		 Comida sorvete = new Sorvete(0.300);
+		 Comida arroz = new Arroz("Arroz a grega", 0.25);
+		 Comida feijao = new Feijao("Feijão tropeiro", 0.18);
+		 Comida sorvete = new Sorvete("Sorvete de morango", 0.300);
 		 
 		 System.out.println(pessoa.getPeso());
 		 

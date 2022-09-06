@@ -1,8 +1,8 @@
 package oo.polimorfismo;
 
 public class Sorvete extends Comida{
-	public Sorvete(double peso) {
-		super(peso);
+	public Sorvete(String nome, double peso) {
+		super(nome, peso);
 		this.setNome("sorvete");
 	}
 }

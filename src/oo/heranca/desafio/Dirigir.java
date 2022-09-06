@@ -32,6 +32,7 @@ public class Dirigir {
 		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();
+		ferrari.ligarTurbo();
 		
 		ferrari.frear();
 		ferrari.frear();
